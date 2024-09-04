@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.sidec.com.my/sidec-vacancy/#breadcrumblist",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://www.sidec.com.my/#listItem",
+          "position": 1,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.sidec.com.my/",
+            "name": "Home",
+            "description": "Selangor Information Technology & Digital Economy Corporation",
+            "url": "https://www.sidec.com.my/"
+          },
+          "nextItem": "https://www.sidec.com.my/sidec-vacancy/#listItem"
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://www.sidec.com.my/sidec-vacancy/#listItem",
+          "position": 2,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://www.sidec.com.my/sidec-vacancy/",
+            "name": "SIDEC Vacancy",
+            "description": "Vacancy Featured Openings Sales Specialist PFCC, Puchong Job Responsibilities1. Well-known in Nand storage & memory products, as well as server & PC industries2. 5 years of sales experience, (sales manager)3. Import & export4. Purchase order function5. ERP system Please email your resume to: hrsemicon@sidec.com.my & hr@maistorage.com Finance Specialist PFCC, Puchong Job Responsibilities1. Responsible for routine",
+            "url": "https://www.sidec.com.my/sidec-vacancy/"
+          },
+          "previousItem": "https://www.sidec.com.my/#listItem"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.sidec.com.my/#organization",
+      "name": "Sidec",
+      "url": "https://www.sidec.com.my/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.sidec.com.my/sidec-vacancy/#webpage",
+      "url": "https://www.sidec.com.my/sidec-vacancy/",
+      "name": "SIDEC Vacancy | Sidec",
+      "description": "Vacancy Featured Openings Sales Specialist PFCC, Puchong Job Responsibilities1. Well-known in Nand storage & memory products, as well as server & PC industries2. 5 years of sales experience, (sales manager)3. Import & export4. Purchase order function5. ERP system Please email your resume to: hrsemicon@sidec.com.my & hr@maistorage.com Finance Specialist PFCC, Puchong Job Responsibilities1. Responsible for routine",
+      "inLanguage": "en-US",
+      "isPartOf": {
+        "@id": "https://www.sidec.com.my/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://www.sidec.com.my/sidec-vacancy/#breadcrumblist"
+      },
+      "datePublished": "2021-02-20T08:56:07+00:00",
+      "dateModified": "2024-05-16T00:07:43+00:00"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.sidec.com.my/#website",
+      "url": "https://www.sidec.com.my/",
+      "name": "Sidec",
+      "description": "Selangor Information Technology & Digital Economy Corporation",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@id": "https://www.sidec.com.my/#organization"
+      }
+    }
+  ]
+}
